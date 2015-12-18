@@ -1,0 +1,67 @@
+{
+    "name": "zendframework/zend-stdlib",
+    "description": " ",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "stdlib"
+    ],
+    "homepage": "https://github.com/zendframework/zend-stdlib",
+    "autoload": {
+        "psr-4": {
+            "Zend\\Stdlib\\": "src/"
+        }
+    },
+    "require": {
+<<<<<<< HEAD
+        "php": ">=5.5",
+        "zendframework/zend-hydrator": "~1.0"
+=======
+        "php": ">=5.5"
+>>>>>>> 2984a17cc10db6830de7319410f03caa118e446f
+    },
+    "require-dev": {
+        "zendframework/zend-config": "~2.5",
+        "zendframework/zend-eventmanager": "~2.5",
+        "zendframework/zend-inputfilter": "~2.5",
+        "zendframework/zend-serializer": "~2.5",
+        "zendframework/zend-servicemanager": "~2.5",
+        "zendframework/zend-filter": "~2.5",
+        "fabpot/php-cs-fixer": "1.7.*",
+<<<<<<< HEAD
+        "phpunit/PHPUnit": "~4.0",
+        "athletic/athletic": "~0.1"
+=======
+        "phpunit/PHPUnit": "~4.0"
+>>>>>>> 2984a17cc10db6830de7319410f03caa118e446f
+    },
+    "suggest": {
+        "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
+        "zendframework/zend-serializer": "Zend\\Serializer component",
+        "zendframework/zend-servicemanager": "To support hydrator plugin manager usage",
+        "zendframework/zend-filter": "To support naming strategy hydrator usage"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+<<<<<<< HEAD
+            "dev-master": "2.7-dev",
+            "dev-develop": "2.8-dev"
+=======
+            "dev-master": "2.5-dev",
+            "dev-develop": "2.6-dev"
+>>>>>>> 2984a17cc10db6830de7319410f03caa118e446f
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+<<<<<<< HEAD
+            "ZendTest\\Stdlib\\": "test/",
+            "ZendBench\\Stdlib\\": "benchmark/"
+=======
+            "ZendTest\\Stdlib\\": "test/"
+>>>>>>> 2984a17cc10db6830de7319410f03caa118e446f
+        }
+    }
+}
